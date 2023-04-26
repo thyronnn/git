@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text {
+  @apply text-white text-white font-bold underline underline-offset-4 underline
+    decoration-2 gap-2 flex justify-center text-[39px];
+}
